@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuppones</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/1240c920c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-light"
+      style="background-color: #28a745"
+    >
+      <!-- Darle Color al Navbar -->
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#"><strong>CUPPON</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <!-- justify-content-end -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="Home"
+                ><strong>Home</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-black-50" href="Features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-black-50" href="Pricing"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Comienzo de las Cards -->
+    <div class="container-fluid p-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/cama.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Plumón Coral Fleece estampado en modelo y tamaño a elección.
+              </h5>
+              <p class="card-text text-black-50">Plumones Manolino</p>
+              <p class="text-black-50">
+                <i class="fa-solid fa-location-dot"></i> 9191 Avenida Vitacura,
+                Chile
+              </p>
+            </div>
+            <div class="card-footer footer-custom bg-white">
+              <!-- footer-custom se puede agregar mas de una clase -->
+              <div class="clase-prueba">
+                <!-- clase creada en un div -->
+                <small class="text-secondary">$30.000</small>
+                <small class="texto-verde fs-6 clase-prueba2">$15.000</small>
+              </div>
+              <!--<small class="text-body-secondary">Last updated 3 mins ago</small>  se cambio por un small -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/comida.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Entrada para compartir + platos de fondo + postres + bebestibles
+              </h5>
+              <p class="card-text text-black-50">El Lechuga Vegano</p>
+              <p class="text-black-50">
+                <i class="fa-solid fa-location-dot"></i> 777 Jesse Pinkman,
+                Chile
+              </p>
+            </div>
+            <div class="card-footer footer-custom bg-white">
+              <div class="clase-prueba">
+                <!-- clase creada en un div -->
+                <small class="text-secondary">$15.000</small>
+                <small class="texto-verde fs-6 clase-prueba2">$10.000</small>
+                <!-- sse puede dejar mas de una clase  -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/dental.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Evaluación integral + blanqueamiento dental led + limpieza +
+                fluoración
+              </h5>
+              <p class="card-text text-black-50">Clínica Dental El Caries</p>
+              <p class="text-black-50">
+                <i class="fa-solid fa-location-dot"></i> 1342, Blanco Encalada,
+                Chile
+              </p>
+            </div>
+            <div class="card-footer footer-custom bg-white">
+              <div class="clase-prueba">
+                <!-- clase creada en un div -->
+                <small class="text-secondary">$50.000</small>
+                <small class="texto-verde fs-6 clase-prueba2">$20.000</small>
+                <!-- sse puede dejar mas de una clase  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--3 Primeras Cards-->
+      <br />
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/postre.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Degustación para 2 personas + postre (no incluye bebidas)
+              </h5>
+              <p class="card-text text-black-50">El laxante almacen</p>
+              <p class="text-black-50">
+                <i class="fa-solid fa-location-dot"></i> 1071 Miguel Claro,
+                Chile
+              </p>
+            </div>
+            <div class="card-footer footer-custom bg-white">
+              <div class="clase-prueba">
+                <!-- clase creada en un div -->
+                <small class="text-secondary">$40.000</small>
+                <small class="texto-verde fs-6 clase-prueba2">$20.000</small>
+                <!-- sse puede dejar mas de una clase  -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/img/parque de juegos.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                1, 2 o 4 tickets para Stukids. Elige sucursal
+              </h5>
+              <p class="card-text text-black-50">
+                Stukids Centro de Eventos Coronarios
+              </p>
+              <p class="text-black-50">
+                <i class="fa-solid fa-location-dot"></i> 133 El tranque, Chile
+              </p>
+            </div>
+            <div class="card-footer footer-custom bg-white">
+              <div class="clase-prueba">
+                <!-- clase creada en un div -->
+                <small class="text-secondary">$300.000</small>
+                <small class="texto-verde fs-6 clase-prueba2">$200.000</small>
+                <!-- sse puede dejar mas de una clase  -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/img/san pedro.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                San Pedro de Atacama : 1 o 2 noches en alojamiento a elección
+              </h5>
+              <p class="card-text text-black-50">K-DA Lejos Travel</p>
+              <p class="text-black-50">
+                <i class="fa-solid fa-location-dot"></i> Las Araucarias 1515,
+                Chile
+              </p>
+            </div>
+            <div class="card-footer footer-custom bg-white">
+              <div class="clase-prueba">
+                <!-- clase creada en un div -->
+                <small class="text-secondary">$150.000</small>
+                <small class="texto-verde fs-6 clase-prueba2">$100.000</small>
+                <!-- se puede dejar mas de una clase  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Final Cards-->
+
+      <!--Formulario-->
+      <form class="fondo-verde p-5 text-center mt-5">
+        <h5 class="text-white"><strong>Recibe cupones en tu correo</strong></h5>
+        <div class="mb-3 pt-4">
+          <input
+            placeholder="Nombre"
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            placeholder="Correo Electronico"
+            type="email"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <button type="submit" class="btn btn-light">Enviar</button>
+      </form>
+    </div>
+    <footer class="text-center mt-2">
+      <h4><strong>CUPPON</strong></h4>
+      <p class="text-black-50">
+        © 2018 Cuppon Latam. Todos los derechos reservados.
+      </p>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
+  </body>
+</html>
